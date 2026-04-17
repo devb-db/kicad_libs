@@ -1,14 +1,14 @@
 (footprint "L_0603_1608Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal")
 	(tags "inductor")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "8aeb04b4-aa43-4d49-b069-bbdec0c3a7e1")
+		(uuid "1701e2f2-b26c-4e27-9aee-0097f1226ae8")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_0603_1608Metric"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "ad2a5b64-72c1-410a-8264-e73d70b23c23")
+		(uuid "3d121b6a-7ee5-4367-b665-3507c0e8fd41")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cc4ab60e-40ba-41c3-b16c-1b4270247c2c")
+		(uuid "37d71f30-2e9e-4cf1-83ee-6c66af733f10")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37a494c1-2db6-44f9-bd9a-c045cecf04c9")
+		(uuid "051b1f83-0332-4a30-82d3-d4b5035f08b8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.162779 -0.51)
 		(end 0.162779 -0.51)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b85f1a6f-7c1e-4630-9d15-6ccb0fbc859c")
+		(uuid "08a418be-4d77-4a1a-9da9-8fbb18064c82")
 	)
 	(fp_line
 		(start -0.162779 0.51)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a3cdbfc-9f74-4249-8a98-62a8c1f58907")
+		(uuid "e1626e94-c986-4c4a-bdce-6295dd479edd")
 	)
 	(fp_line
 		(start -1.48 -0.73)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b1a287af-e2b5-4eb0-af48-04a295a2faf0")
+		(uuid "dfd4ea7d-1f67-4bad-b5ce-3fb543145d50")
 	)
 	(fp_line
 		(start -1.48 0.73)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c9a5f4b8-7cbb-479b-b4fb-a88047bf517e")
+		(uuid "eb5584bb-c5d1-42cd-9006-e9cbe1cbb640")
 	)
 	(fp_line
 		(start 1.48 -0.73)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ddeeff6a-9d0f-4a82-86b8-34610eeb2f27")
+		(uuid "a06b50e1-6fcd-4c7b-97ef-115011f6c050")
 	)
 	(fp_line
 		(start 1.48 0.73)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5de1656b-e487-4ae2-9efb-e1bc81e5d96f")
+		(uuid "be27a551-cc95-456d-8008-55b8f8c57026")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "23ec251e-0c51-4e76-98e7-f029054da558")
+		(uuid "73fa77ce-c209-44f7-a053-ee93913f1018")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4a6752a9-eb13-4a94-8f6e-4fffbdfa5275")
+		(uuid "89a47529-4daa-4397-b5fe-9d4a80c2c0e1")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c9e8ad5e-c1ad-40a6-b3dc-05879bd0c6eb")
+		(uuid "9bc15044-6083-4483-a0ab-c3e9b5768818")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -150,12 +151,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d9ab0753-3f93-4715-bdf5-dc94bf6945d6")
+		(uuid "17a0e9ed-b4aa-4b66-908d-26df7875d00a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e2025b73-7b50-47c8-b4f4-579964b93ce3")
+		(uuid "24d1ba22-10e7-4712-acec-2e2ee6529c53")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -168,14 +169,14 @@
 		(size 0.875 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "c4a87729-c883-497e-976f-d3f226bffda4")
+		(uuid "f9c32814-5ee6-4a6a-b5f5-33b147ce4930")
 	)
 	(pad "2" smd roundrect
 		(at 0.7875 0)
 		(size 0.875 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "0ee3ea4d-3461-4cda-a710-eb4ce3223c29")
+		(uuid "4f5ff673-8fd7-46e6-ad24-a10c6a8d7fd1")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
